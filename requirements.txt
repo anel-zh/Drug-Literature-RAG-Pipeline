@@ -1,0 +1,18 @@
+# Document Processing
+pypdf               # For loading and parsing PDF pages
+
+# Vector Database & Search 
+faiss-cpu           # The core vector index for dense retrieval
+rank_bm25           # Implementation of BM25 for sparse/keyword retrieval
+numpy               # Required for matrix operations and FAISS
+
+# Embeddings & Reranking 
+sentence-transformers # For generating embeddings and running Cross-Encoders
+torch                 # Backend for sentence-transformers models
+
+# Local LLM & Orchestration 
+ollama              # Python bridge for Ollama (Llama 3, Mistral, etc.)
+pydantic-settings   # For the src.config Settings management
+
+# Utilities
+tqdm                # Progress bars for indexing large PDF sets
