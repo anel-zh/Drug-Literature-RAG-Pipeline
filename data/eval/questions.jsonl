@@ -1,0 +1,7 @@
+{"id":"HADLIMA_BOXED_WARNING","query":"What is the boxed warning for Hadlima?","expected":{"doc_id":"HADLIMA_FDA_LABEL","section":"BOXED WARNING"},"must_contain":["serious infections"],"must_not_contain":[]}
+{"id":"HADLIMA_INDICATIONS","query":"List the indications for Hadlima.","expected":{"doc_id":"HADLIMA_FDA_LABEL","section":"1 INDICATIONS AND USAGE"},"must_contain":["indicated"],"must_not_contain":[]}
+{"id":"HADLIMA_IMMUNOGENICITY_WHERE","query":"Where is immunogenicity discussed for Hadlima?","expected":{"doc_id":"HADLIMA_FDA_LABEL","section":"6.2 IMMUNOGENICITY"},"must_contain":["immunogenicity"],"must_not_contain":["immunization"]}
+{"id":"EPYSQLI_MOA","query":"What is the mechanism of action of Epysqli?","expected":{"doc_id":"EPYSQLI_FDA_LABEL","section":"12.1 MECHANISM OF ACTION"},"must_contain":["complement","C5"],"must_not_contain":[]}
+{"id":"EPYSQLI_INDICATIONS","query":"What are the indications for Epysqli?","expected":{"doc_id":"EPYSQLI_FDA_LABEL","section":"1 INDICATIONS AND USAGE"},"must_contain":["indicated"],"must_not_contain":[]}
+{"id":"SB5_PAPER_MAIN_FINDING","query":"What is the main conclusion of the SB5 paper?","expected":{"doc_id":"SB5_RA_PMC"},"must_contain":[],"must_not_contain":[]}
+{"id":"COMPARE_HADLIMA_EPISQLI","query":"Compare Hadlima and Epysqli in terms of mechanism of action.","expected":{},"must_contain":["Hadlima","Epysqli"],"must_not_contain":[]}
